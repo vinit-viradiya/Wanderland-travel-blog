@@ -1,0 +1,140 @@
+:root {
+    --bs-font-sans-serif: 'Oswald';
+    --bs-font-monospace: 'Crimson Text';
+    --bs-primary: #59815B;
+    --bs-primary-rgb: 89, 129, 91;
+    --bs-secondary: #1E1E1E;
+    --bs-gray: #E1E1E1;
+    --bs-dark-rgb: 30, 30, 30;
+    --bs-secondary-text-emphasis: #B9B9B9;
+}
+
+.back-to-top{
+    width: 45px;
+    height: 45px;
+    background-color: #59815B;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    z-index: 100;
+}
+
+.gray {
+    color: #858585;
+}
+
+.muli {
+    font-family: 'Muli';
+}
+
+.topbar {
+    font-size: 18px;
+}
+
+@media (min-width:1200px) {
+    .py-xl-120 {
+        padding: 120px 0px;
+    }
+}
+
+.py-80 {
+    padding: 80px 0px;
+}
+
+.py-100 {
+    padding: 100px 0px;
+}
+
+.py-120 {
+    padding: 120px 0px;
+}
+
+.nav-link:hover {
+    color: var(--bs-gray);
+}
+
+.bg-pro {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.dropdown-menu {
+    font-size: 18px;
+    width: 220px;
+    transform: translate(0px, 22px) !important;
+    display: block !important;
+    opacity: 0;
+    transition: all .7s ease;
+    visibility: hidden;
+
+}
+
+@media(min-width:1200px) {
+    .main-header {
+        background-color: transparent !important;
+    }
+}
+
+.dropdown:hover .dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.dropdown-item {
+    color: #878787;
+    transition: all .5s;
+}
+
+.dropdown-item:hover {
+    color: #1E1E1E;
+}
+
+.dropdown .nav-link {
+    transition: all .5s;
+}
+
+.dropdown:hover .nav-link {
+    text-shadow: 1px 1px #000;
+}
+
+#blogs .carousel-control-prev,
+#blogs .carousel-control-next {
+    top: -20%;
+}
+
+#blogs img:hover {
+    scale: 1.1;
+}
+
+#blogs img {
+    transition: all .5s;
+}
+
+.offcanvas.offcanvas-top {
+    height: 250px;
+    top: 76px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 1;
+}
+
+@media (min-width:575px) {
+    .main-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width:1200px) {
+    .main-header {
+        position: relative !important;
+    }
+}
